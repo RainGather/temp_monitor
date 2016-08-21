@@ -1,0 +1,24 @@
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting script temp_monitor"
+    ;;
+  stop)
+    echo "Stopping script temp_monitor"
+    ;;
+  *)
+    echo "Usage: /etc/init.d/temp_monitor.sh {start|stop}"
+    exit 1
+    ;;
+esac
+
+### BEGIN INIT INFO
+# Provides:          temp_monitor
+# Required-Start:    $local_fs $network
+# Required-Stop:     $local_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: temp_monitor
+# Description:       temp_monitor daemon
+### END INIT INFO

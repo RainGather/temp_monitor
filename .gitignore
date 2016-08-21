@@ -1,0 +1,5 @@
+*.pyc
+.idea
+last_email_send_time.txt
+temp_monitor.sh
+temp_monitor.cfg

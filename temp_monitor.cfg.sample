@@ -1,0 +1,9 @@
+{
+    "send_email": "email@163.com",
+    "passwd": "163_password",
+    "smtp": "smtp.163.com",
+    "recv_email": "other_email@sina.com", 
+    "temp1_pin": 2,
+    "temp2_pin": 10,
+    "safe_temp": 35
+}
